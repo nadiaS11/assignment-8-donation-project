@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "image_link": "https://i.ibb.co/mDGcb2B/people-holding-banners-front-view.jpg",
+    "title": "Help Save the Rainforest",
+    "category": "Environment",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "description": "The rainforest is home to millions of species and provides vital ecosystem services. But it is under threat from deforestation, mining, and climate change. You can help protect the rainforest by donating to this campaign.",
+    "price": 250
+  },
+  {
+    "id": "2",
+    "image_link": "https://i.ibb.co/87NB0K3/education-new.jpg",
+    "title": "Support Education for Girls",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "description": "Education is a human right and a powerful tool for empowerment. But millions of girls around the world are denied access to quality education due to poverty, discrimination, and violence. You can help change that by donating to this campaign.",
+    "price": 500
+  },
+  {
+    "id": "3",
+    "image_link": "https://i.ibb.co/Px31nVL/healthcare.jpg",
+    "title": "Feed the Hungry Children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "description": "Hunger is a global problem that affects millions of children every day. It causes malnutrition, stunting, and increased risk of disease. You can help fight hunger by donating to this campaign.",
+    "price": 150
+  },
+  {
+    "id": "4",
+    "image_link": "https://i.ibb.co/Sckjpf9/animals.jpg",
+    "title": "Adopt a Panda",
+    "category": "Animals",
+    "category_bg": "#f1e3f1",
+    "card_bg": "#ead5ea",
+    "text_bg": "#8c198c",
+    "description": "Pandas are adorable and endangered animals that need our help. They face threats from habitat loss, poaching, and climate change. You can help save the pandas by donating to this campaign.",
+    "price": 100
+  },
+  {
+    "id": "5",
+    "image_link": "https://i.ibb.co/mDGcb2B/people-holding-banners-front-view.jpg",
+    "title": "Plant a Tree",
+    "category": "Environment",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "description": "Trees are essential for life on Earth. They produce oxygen, store carbon, and provide habitat for wildlife. But they are being cut down at an alarming rate. You can help restore the forest by donating to this campaign.",
+    "price": 500
+  },
+  {
+    "id": "6",
+    "image_link": "https://i.ibb.co/87NB0K3/education-new.jpg",
+    "title": "Build a School",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "description": "Education is the key to breaking the cycle of poverty and creating opportunities for development. But many communities lack access to basic infrastructure and resources for learning. You can help build a school by donating to this campaign.",
+    "price": 200
+  },
+  {
+    "id": "7",
+    "image_link": "https://i.ibb.co/Px31nVL/healthcare.jpg",
+    "title": "Provide Clean Water",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "description": "Water is essential for life, but many people lack access to safe and clean water sources. This leads to diseases, dehydration, and death. You can help provide clean water by donating to this campaign.",
+    "price": 150
+  },
+  {
+    "id": "8",
+    "image_link": "https://i.ibb.co/Sckjpf9/animals.jpg",
+    "title": "Rescue a Dog",
+    "category": "Animals",
+    "category_bg": "#f1e3f1",
+    "card_bg": "#ead5ea",
+    "text_bg": "#8c198c",
+    "description": "Dogs are loyal and loving companions, but many of them are abandoned, abused, or neglected. They need our help to find a new home and a better life. You can help rescue a dog by donating to this campaign.",
+    "price": 300
+  },
+  {
+    "id": "9",
+    "image_link": "https://i.ibb.co/mDGcb2B/people-holding-banners-front-view.jpg",
+    "title": "Fight Climate Change",
+    "category": "Environment",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "description": "Climate change is the biggest challenge of our time. It affects every aspect of our lives and threatens our future. But we can still make a difference by reducing our emissions and supporting green initiatives. You can help fight climate change by donating to this campaign.",
+    "price": 400
+  },
+  {
+    "id": "10",
+    "image_link": "https://i.ibb.co/87NB0K3/education-new.jpg",
+    "title": "Sponsor a Child",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "description": "Sponsoring a child is a personal and meaningful way to help a child in need. You can provide them with education, health care, nutrition, and protection. You can also communicate with them and learn about their culture and dreams. You can help sponsor a child by donating to this campaign.",
+    "price": 350
+  },
+  {
+    "id": "11",
+    "image_link": "https://i.ibb.co/Px31nVL/healthcare.jpg",
+    "title": "Donate Blood",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "description": "Blood is a vital resource that saves lives every day. But there is always a shortage of blood donors and supplies. You can help save a life by donating blood to this campaign.",
+    "price": 650
+  },
+  {
+    "id": "12",
+    "image_link": "https://i.ibb.co/cXBRP65/close-up-people-holding-apples-bag.jpg",
+    "title": "Feed The Hungry Children",
+    "category": "Food",
+    "category_bg": "#D4BE2933",
+    "card_bg": "#D4BE2926",
+    "text_bg": "#D4BE29",
+    "description": "Every day, millions of people go hungry and struggle to survive. You can make a difference by donating to Feed the Hungry, a charity that provides nutritious meals and clean water to those in need. Your generosity can help save lives and fight hunger. Please donate today and spread the word.",
+    "price": 200
+  }
+]
