@@ -1,8 +1,10 @@
 import PropTypes from "prop-types";
+import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const DetailCard = ({ donation }) => {
   const { image_link, description, price, text_bg, title } = donation;
+  const { id } = useParams();
 
   const handleDonate = (donation) => {
     const addToDonation = [];
@@ -11,8 +13,13 @@ const DetailCard = ({ donation }) => {
       addToDonation.push(donation);
       localStorage.setItem("donate", JSON.stringify(addToDonation));
     } else {
-      addToDonation.push(...checkDonation, donation);
-      localStorage.setItem("donate", JSON.stringify(addToDonation));
+      const ifExists = checkDonation.find((donation) => donation.id === id);
+      if (!ifExists) {
+        addToDonation.push(...checkDonation, donation);
+        localStorage.setItem("donate", JSON.stringify(addToDonation));
+      } else {
+        toast("You already have donated ");
+      }
     }
     console.log(checkDonation);
     toast("donation added successfully");
@@ -39,7 +46,7 @@ const DetailCard = ({ donation }) => {
         </div>
         <div className="space-y-3 px-2">
           <h1 className="text-2xl font-bold">{title}</h1>
-          <p>{description}</p>
+          <p className=" ">{description}</p>
         </div>
       </div>
     </div>
