@@ -7,7 +7,6 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className=" relative z-40">
-      {" "}
       <nav className="flex py-6 items-center justify-between container mx-auto">
         <img src="Logo.png" alt="" />
         <div>
