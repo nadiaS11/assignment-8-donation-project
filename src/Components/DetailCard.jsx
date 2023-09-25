@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { toast } from "react-toastify";
 
 const DetailCard = ({ donation }) => {
   const { image_link, description, price, text_bg, title } = donation;
@@ -14,6 +15,7 @@ const DetailCard = ({ donation }) => {
       localStorage.setItem("donate", JSON.stringify(addToDonation));
     }
     console.log(checkDonation);
+    toast("donation added successfully");
   };
 
   return (

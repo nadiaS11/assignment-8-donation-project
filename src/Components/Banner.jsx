@@ -11,10 +11,10 @@ const Banner = () => {
           backgroundImage: "url( banner.jpg)",
         }}
       >
-        <div className="hero-overlay bg-opacity-70 mx-auto"></div>
+        <div className="hero-overlay bg-white bg-opacity-80 mx-auto"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-xl">
-            <h1 className="text-5xl py-4 font-bold">
+            <h1 className="text-5xl py-4 text-black font-bold">
               I Grow By Helping People In Need
             </h1>
             <div className="join">

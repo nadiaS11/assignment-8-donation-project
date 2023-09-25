@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
-import PropTypes from "prop-types";
-import Donation from "./Donation";
-import { Link, useLoaderData, useParams } from "react-router-dom";
-import Header from "./Header";
+import { useEffect, useState } from "react";
+import { useLoaderData, useParams } from "react-router-dom";
 import DetailCard from "./DetailCard";
+import { ToastContainer } from "react-toastify";
 
-const DonationDetails = (props) => {
+import "react-toastify/dist/ReactToastify.css";
+const DonationDetails = () => {
   const { id } = useParams();
   const donations = useLoaderData();
 
@@ -18,6 +17,7 @@ const DonationDetails = (props) => {
 
   return (
     <div>
+      <ToastContainer limit={1}></ToastContainer>
       <DetailCard key={id} donation={donation}></DetailCard>
     </div>
   );
