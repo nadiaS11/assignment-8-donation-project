@@ -1,20 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
-
 const Banner = () => {
   return (
     <div
-      className="absolute w-screen z-0 top-0
+      className="absolute w-full z-0 top-0
 
     "
     >
       <div
-        className="hero h-[80vh] "
+        className="hero h-[80vh] bg-no-repeat  w-full mx-auto  "
         style={{
           backgroundImage: "url( banner.jpg)",
         }}
       >
-        <div className="hero-overlay bg-opacity-70"></div>
+        <div className="hero-overlay bg-opacity-70 mx-auto"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-xl">
             <h1 className="text-5xl py-4 font-bold">

@@ -16,7 +16,7 @@ const DonationCard = ({ donation }) => {
           className={`card card-compact rounded-t-lg `}
         >
           <figure>
-            <img className="w-64 h-40" src={image_link} alt="" />
+            <img className="md:w-64 md:h-40" src={image_link} alt="" />
           </figure>
           <div className="card-body">
             <h2
