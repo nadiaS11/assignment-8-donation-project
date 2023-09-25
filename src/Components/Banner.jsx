@@ -17,7 +17,7 @@ const Banner = () => {
             <h1 className="text-5xl py-4 text-black font-bold">
               I Grow By Helping People In Need
             </h1>
-            <div className="join">
+            {/* <div className="join">
               <div>
                 <div>
                   <input
@@ -32,7 +32,7 @@ const Banner = () => {
                   Search
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
