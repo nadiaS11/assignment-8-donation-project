@@ -3,22 +3,12 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const DonationCard = ({ donation }) => {
-  const {
-    id,
-    card_bg,
-    category,
-    category_bg,
-    image_link,
-    description,
-    price,
-    text_bg,
-    title,
-  } = donation;
+  const { id, card_bg, category, category_bg, image_link, text_bg, title } =
+    donation;
 
-  console.log(card_bg);
   return (
     <div>
-      <Link to={`/donation-details/${id}`}>
+      <Link to={`/${id}`}>
         <div
           style={{
             backgroundColor: card_bg,
@@ -53,6 +43,8 @@ const DonationCard = ({ donation }) => {
   );
 };
 
-DonationCard.propTypes = {};
+DonationCard.propTypes = {
+  donation: PropTypes.object,
+};
 
 export default DonationCard;

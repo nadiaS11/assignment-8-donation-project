@@ -1,14 +1,12 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
-import Banner from "./Banner";
+import { useState } from "react";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className=" relative z-40">
       <nav className="flex py-6 items-center justify-between container mx-auto">
-        <img src="Logo.png" alt="" />
+        <img src="/Logo.png" alt="" />
         <div>
           <IoMenu
             onClick={() => setOpen(!open)}
@@ -49,7 +47,5 @@ const Header = () => {
     </div>
   );
 };
-
-Header.propTypes = {};
 
 export default Header;
