@@ -6,11 +6,13 @@ import Statistics from "./Statistics";
 import Donation from "./Donation";
 import Banner from "./Banner";
 import DonationDetails from "./DonationDetails";
+import ErrorPage from "./ErrorPage";
 
 const myCreatedRouter = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <ErrorPage></ErrorPage>,
 
     children: [
       {
