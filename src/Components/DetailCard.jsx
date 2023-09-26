@@ -26,8 +26,8 @@ const DetailCard = ({ donation }) => {
   };
 
   return (
-    <div className=" ">
-      <div className="space-y-4  lg:w-2/4 md:w-3/4 mx-auto relative  mt-5">
+    <div className=" my-10">
+      <div className="space-y-4  lg:w-2/4 md:w-3/4 mx-auto   ">
         <div
           style={{
             backgroundImage: `url( ${image_link})`,
@@ -36,7 +36,7 @@ const DetailCard = ({ donation }) => {
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
-          className=" flex flex-col justify-end"
+          className="rounded-t-md flex flex-col justify-end"
         >
           <div className="bg-[#0B0B0B80] bg-blend-overlay p-6">
             <button
