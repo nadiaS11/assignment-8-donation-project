@@ -4,7 +4,6 @@ import MainLayout from "./MainLayout";
 import Home from "./Home";
 import Statistics from "./Statistics";
 import Donation from "./Donation";
-import Banner from "./Banner";
 import DonationDetails from "./DonationDetails";
 import ErrorPage from "./ErrorPage";
 

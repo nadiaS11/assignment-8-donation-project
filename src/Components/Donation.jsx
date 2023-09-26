@@ -6,7 +6,7 @@ const Donation = () => {
   console.log(checkDonation, "from donation");
   const [seeAll, setSeeAll] = useState(false);
 
-  const sliced = !seeAll ? checkDonation.slice(0, 4) : checkDonation;
+  const sliced = !seeAll ? checkDonation?.slice(0, 4) : checkDonation;
   // console.log(sliced);
   return (
     <div className="">

@@ -19,10 +19,10 @@ const DonatedCard = ({ donation }) => {
           backgroundColor: card_bg,
           color: text_bg,
         }}
-        className={`card md:card-side lg:min-h-[300px] rounded-t-lg `}
+        className={`card md:card-side h-full rounded-t-lg `}
       >
-        <figure>
-          <img className="md:w-64 h-full" src={image_link} alt="" />
+        <figure className="md:w-1/2 w-full">
+          <img className=" h-full" src={image_link} alt="" />
         </figure>
         <div className="px-5 gap-1 py-4 flex flex-col">
           <div className="flex-grow">
@@ -30,12 +30,12 @@ const DonatedCard = ({ donation }) => {
               style={{
                 backgroundColor: category_bg,
               }}
-              className="w-2/4 rounded text-center text-sm"
+              className="w-2/4 rounded text-center text-lg font-semibold"
             >
               {category}
             </h3>
-            <h2 className=" font-bold">{title}</h2>
-            <h4 className=" font-bold md:pb-10 ">${price}.00</h4>
+            <h2 className="text-2xl font-bold">{title}</h2>
+            <h4 className=" font-bold md:pb-10 text-xl">${price}.00</h4>
           </div>
           <div className="pt-2">
             <Link
@@ -43,7 +43,7 @@ const DonatedCard = ({ donation }) => {
               style={{
                 backgroundColor: text_bg,
               }}
-              className="text-white btn-md rounded-md p-2"
+              className="text-white font-semibold btn-md rounded-md p-2"
             >
               View Details
             </Link>

@@ -12,18 +12,18 @@ const DonationCard = ({ donation }) => {
           style={{
             backgroundColor: card_bg,
           }}
-          className={`card card-compact rounded-t-lg `}
+          className={`card card-compact h-full rounded-t-lg `}
         >
-          <figure>
-            <img className="md:w-64 md:h-40" src={image_link} alt="" />
+          <figure className="flex-grow">
+            <img className="h-full" src={image_link} alt="" />
           </figure>
-          <div className="card-body">
+          <div className=" flex flex-col gap-5 my-4 mx-5 ">
             <h2
               style={{
                 backgroundColor: category_bg,
                 color: text_bg,
               }}
-              className="w-2/4 rounded text-center font-medium text-sm"
+              className="w-1/2  rounded  text-center  font-medium text-sm"
             >
               {category}
             </h2>
@@ -31,7 +31,7 @@ const DonationCard = ({ donation }) => {
               style={{
                 color: text_bg,
               }}
-              className=" font-bold"
+              className="flex-grow font-bold"
             >
               {title}
             </p>

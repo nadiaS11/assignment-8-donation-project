@@ -28,21 +28,27 @@ const DetailCard = ({ donation }) => {
   return (
     <div className=" ">
       <div className="space-y-4  lg:w-2/4 md:w-3/4 mx-auto relative  mt-5">
-        <img
-          className="rounded-t-lg mx-auto w-full h-[400px] md:h-[60vh] "
-          src={image_link}
-          alt=""
-        />
-        <div className="bg-[#0B0B0B80] bg-blend-overlay absolute pl-4 w-full top-[11.2rem] md:top-[18.2rem] lg:top-[18.4rem]  py-5">
-          <button
-            onClick={() => handleDonate(donation)}
-            style={{
-              backgroundColor: text_bg,
-            }}
-            className="  text-white font-semibold px-2 py-1 rounded-md"
-          >
-            Donate: ${price}
-          </button>
+        <div
+          style={{
+            backgroundImage: `url( ${image_link})`,
+            backgroundRepeat: "no-repeat",
+            height: "60vh",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+          className=" flex flex-col justify-end"
+        >
+          <div className="bg-[#0B0B0B80] bg-blend-overlay p-6">
+            <button
+              onClick={() => handleDonate(donation)}
+              style={{
+                backgroundColor: text_bg,
+              }}
+              className="  text-white font-semibold px-2 py-1 rounded-md"
+            >
+              Donate: ${price}
+            </button>
+          </div>
         </div>
         <div className="space-y-3 px-2">
           <h1 className="text-2xl font-bold">{title}</h1>

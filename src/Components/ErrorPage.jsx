@@ -1,29 +1,29 @@
-import PropTypes from "prop-types";
 import { Link, useRouteError } from "react-router-dom";
 
 const ErrorPage = () => {
   const error = useRouteError();
-
+  error.message = "Visit Home to donate";
   return (
     <div>
       <h2 className=" text-center mt-52 font-black text-7xl"> Opps!</h2>
-      {/* <p className=" text-center mt-5 font-semibold text-xl">
-        {error.statusText || error.message}{" "}
+
+      <p className=" text-center mt-5 font-semibold text-xl">
+        {error.statusText || error.message}
       </p>
+
       {error.status === 404 && (
         <div>
-          <h2>Page not found</h2>
-          <p>Go back Home</p>
-          <button>
-            {" "}
-            <Link to="/">Home</Link>
-          </button>
+          <p>You are headed to the wrong way.</p>
         </div>
-      )} */}
+      )}
+
+      <h4 className=" text-center mt-5 font-black text-xl">
+        <Link className="bg-gray-300 btn" to="/">
+          Home
+        </Link>
+      </h4>
     </div>
   );
 };
-
-ErrorPage.propTypes = {};
 
 export default ErrorPage;
