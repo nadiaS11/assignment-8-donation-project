@@ -23,7 +23,7 @@ const DonationCard = ({ donation }) => {
                 backgroundColor: category_bg,
                 color: text_bg,
               }}
-              className="w-1/2  rounded  text-center  font-medium text-sm"
+              className="w-1/2 rounded text-center font-medium  "
             >
               {category}
             </h2>
@@ -31,7 +31,7 @@ const DonationCard = ({ donation }) => {
               style={{
                 color: text_bg,
               }}
-              className="flex-grow font-bold"
+              className="flex-grow font-bold card-title"
             >
               {title}
             </p>

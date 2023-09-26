@@ -20,13 +20,13 @@ const Statistics = () => {
   console.log(available, "available");
 
   const data = [
-    { name: "Total Available Donation", value: available || total },
+    { name: "Total Donation", value: available || total },
     { name: "Your Donation", value: amount },
   ];
 
   const COLORS = ["#0088FE", "#00C49F"];
   return (
-    <div>
+    <div className="mt-20 text-2xl">
       <ResponsiveContainer width="100%" height={300}>
         <PieChart width={400} height={300}>
           <Pie

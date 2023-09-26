@@ -34,7 +34,7 @@ const DonatedCard = ({ donation }) => {
             >
               {category}
             </h3>
-            <h2 className="text-2xl font-bold">{title}</h2>
+            <h2 className="text-2xl text-black font-bold">{title}</h2>
             <h4 className=" font-bold md:pb-10 text-xl">${price}.00</h4>
           </div>
           <div className="pt-2">
