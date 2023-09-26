@@ -1,13 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import Banner from "./Banner";
-import { useLoaderData } from "react-router-dom";
 import DonationCard from "./DonationCard";
 
 const Home = () => {
-  // const inputRef = useRef(null);
-  // const donations = useLoaderData();
-
   const [allDonations, setAllDonations] = useState([]);
   const [searchValue, setSearchValue] = useState("");
 
