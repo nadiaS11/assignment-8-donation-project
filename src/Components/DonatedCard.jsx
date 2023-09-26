@@ -43,7 +43,7 @@ const DonatedCard = ({ donation }) => {
               style={{
                 backgroundColor: text_bg,
               }}
-              className="text-white font-semibold btn-md rounded-md p-2"
+              className="text-white font-semibold btn-md rounded-md p-2 text-lg"
             >
               View Details
             </Link>
