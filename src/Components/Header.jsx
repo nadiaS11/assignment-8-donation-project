@@ -14,7 +14,9 @@ const Header = () => {
           ></IoMenu>
           <ul
             className={`absolute right-2 grid text-right duration-100 z-50 ${
-              open ? "top-20 bg-base-200 rounded space-y-2" : "-top-60"
+              open
+                ? "top-20 bg-base-200 md:bg-white rounded space-y-2"
+                : "-top-60"
             } md:static md:flex md:gap-5 py-2 font-medium text-lg px-2`}
           >
             <NavLink

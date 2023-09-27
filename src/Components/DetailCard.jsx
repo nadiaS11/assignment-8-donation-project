@@ -22,7 +22,7 @@ const DetailCard = ({ donation }) => {
       }
     }
     console.log(checkDonation);
-    toast("donation added successfully");
+    toast("Donation added successfully");
   };
 
   return (
