@@ -5,9 +5,7 @@ const ErrorPage = () => {
   error.message = "Visit Home to donate";
   return (
     <div>
-      <h2 className=" text-center mt-52 font-black text-7xl"> Opps!</h2>
-
-      <p className=" text-center mt-5 font-semibold text-xl">
+      <p className=" text-center mt-52 font-semibold text-xl">
         {error.statusText || error.message}
       </p>
 
