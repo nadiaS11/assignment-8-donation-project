@@ -21,7 +21,8 @@ const Donation = () => {
           className={`${
             checkDonation.length > 4 && !seeAll
               ? "btn bg-[#009444] text-white"
-              : (checkDonation.length > 4 && seeAll) || checkDonation <= 4
+              : (checkDonation.length > 4 && seeAll) ||
+                checkDonation.length <= 4
               ? "hidden"
               : "hidden "
           } `}
